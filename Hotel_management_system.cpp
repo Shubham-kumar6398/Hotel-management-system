@@ -249,8 +249,7 @@ int main(){
                     hotel.search(str);
                     getch();
                     break;
-            case 4: //if(hotel.i==size&&hotel.j==size&&hotel.k==size)
-                    hotel.available();
+            case 4: hotel.available();
                     getch();
                     break;
         }
